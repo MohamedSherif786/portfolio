@@ -1,0 +1,36 @@
+/* Custom styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: black;
+}
